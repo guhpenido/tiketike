@@ -1,0 +1,223 @@
+{
+    "eventos": [
+      {
+        "id": 1,
+        "nome": "Cruzeiro x Bahia",
+        "local": "Estádio Mineirão",
+        "banner": "https://lncimg.lance.com.br/cdn-cgi/image/width=1920,quality=75,format=webp/uploads/2023/10/tr10-4.jpg",
+        "descricao": "O embate espetacular entre Cruzeiro e Bahia promete uma chuva de gols e jogadas incríveis. Não perca a chance de vivenciar toda a emoção deste confronto imperdível. Venha torcer e vibrar com seu time!",
+        "data": "26/10/2023",
+        "horario": "20:00",
+        "tipo": "Esportes",
+        "valor": "R$60,00"
+      },
+      {
+        "id": 2,
+        "nome": "THE CHOICE BELO HORIZONTE |WHITE PARTY",
+        "local": "CLUBE LABAREDA",
+        "banner": "https://images.sympla.com.br/652dc4b98fc34.jpg",
+        "descricao": "Vem aí a festa mais esperada do ano: White Party, a festa do branco! Vista-se de branco e venha se divertir em uma tarde cheia de glamour e elegância. Música, dança e muita diversão te esperam nessa festa inesquecível. ",
+        "data": "17/12/2023",
+        "horario": "15:00",
+        "tipo": "Festas e Shows",
+        "valor": "R$90,00"
+      },
+      {
+        "id": 3,
+        "nome": "ENALDINHO - O MISTÉRIO DO CIRCO",
+        "local": "Arena Hall",
+        "banner": "https://assets.bileto.sympla.com.br/eventmanager/production/1chqfrmng8b6k0r5rmt84aescg2akvjm0is1o02ulb2kcdu4fi5sot65b41clu6vrco4d2t9cmlu4e74tdbc6otm5qmiqirk52rkpgr.webp",
+        "descricao": "Enaldinho, em um de seus momentos de folga, resolve ir com os amigos a um espetáculo no circo, mas algo totalmente inesperado e assustador irá acontecer, e que poderá comprometer a sua carreira de Youtuber, o que o colocará junto com os  amigos em uma história cheia de mistério e aventura.",
+        "data": "26/11/2023",
+        "horario": "17:00",
+        "tipo": "Infantil",
+        "valor": "R$50,00"
+      },
+      {
+        "id": 4,
+        "nome": "REVEILLON PORCÃO - ALL INCLUSIVE PREMIUM",
+        "local": "Espaço Meet - Porcão",
+        "banner": "https://images.sympla.com.br/651c5da72392d-lg.jpg",
+        "descricao": "JUNTAMOS A TRADIÇÃO E QUALIDADE DA CHURRASCARIA PORCÃO EM UMA NOITE CHEIA DE MAGIA,VIBRAÇÕES E MUITOS BRINDES.",
+        "data": "31/12/2023",
+        "horario": "21:00",
+        "tipo": "Reveillon",
+        "valor": "R$320,00"
+      },
+      {
+        "id": 5,
+        "nome": "HALLOWEEN DA PIMENTA",
+        "local": "DDuck DClub",
+        "banner": "https://images.sympla.com.br/6536aed4df16d-lg.jpg",
+        "descricao": "",
+        "data": "26/10/2023",
+        "horario": "23:00",
+        "tipo": "Halloween",
+        "valor": "R$20,00"
+      },
+      {
+        "id": 6,
+        "nome": "Baile do Piloto",
+        "local": "Clube Chalezinho",
+        "banner": "https://images.sympla.com.br/652da2b1232a4-lg.jpg",
+        "descricao": "Uma noite inesquecível aguarda você na nossa festa open bar! Desfrute de bebidas premium e diversão sem limites. Viva o momento e celebre conosco!",
+        "data": "04/11/2023",
+        "horario": "23:00",
+        "tipo": "Festas e Shows",
+        "valor": "R$220,00"
+      },
+      {
+        "id": 7,
+        "nome": "MARINA SENA - VÍCIO INERENTE",
+        "local": "Arena Hall",
+        "banner": "https://assets.bileto.sympla.com.br/eventmanager/production/1j1gpe31bdror48nq660nqpsej9fv3ufp5h4nscdjjdds5dnp58u4tsmpigjc09rosgiacl2htg3re2atgt7hbe0h7dcbkjii4opq45.webp",
+        "descricao": "Complementando a nova era, Marina entrega um espetáculo ainda mais grandioso no palco, mostrando sua potência e versatilidade como artista.",
+        "data": "14/11/2023",
+        "horario": "22:30",
+        "tipo": "Festas e Shows",
+        "valor": "R$80,00"
+      },
+      {
+        "id": 8,
+        "nome": "Dark Med",
+        "local": "Pub Major Lock",
+        "banner": "https://images.sympla.com.br/652346a196998-lg.png",
+        "descricao": "O Halloween DARK MED 162 voltou com tudo!!",
+        "data": "27/10/2023",
+        "horario": "20:00",
+        "tipo": "Festas e Shows",
+        "valor": "R$30,00"
+      },
+      {
+        "id": 9,
+        "nome": "ANANDA",
+        "local": "Pub Major Lock",
+        "banner": "https://images.sympla.com.br/6524706c83932-lg.jpg",
+        "descricao": "Prepare-se para uma noite única com o show inédito de Ananda. Sua música envolvente e presença de palco magnética prometem uma experiência inesquecível. Garanta seu lugar e mergulhe no universo musical de Ananda como nunca antes!",
+        "data": "26/11/2023",
+        "horario": "16:00",
+        "tipo": "Festas e Shows",
+        "valor": "R$40,00"
+      },
+      {
+        "id": 10,
+        "nome": "KARIBE 6ª EDIÇÃO - KOTIM",
+        "local": "Clube Chalezinho",
+        "banner": "https://images.sympla.com.br/651cbde270a99-lg.jpg",
+        "descricao": "A KARIBE ESTÁ DE VOLTA DEPOIS DE 5 EDIÇÕES INESQUECÍVEIS, DIA 01/11(VÉSPERA DE FERIADO), NOS ENCONTRAMOS PARA MAIS UM CAPÍTULO DE NOSSA HISTÓRIA.",
+        "data": "01/11/2023",
+        "horario": "22:00",
+        "tipo": "Festas e Shows",
+        "valor": "R$55,00"
+      },{
+        "id": 11,
+        "nome": "Brasil Games Show",
+        "local": "São Paulo",
+        "banner": "https://cdn.discordapp.com/attachments/944149488640094228/1166586515581849670/bgs-2023.png?ex=654b075b&is=6538925b&hm=67863467efc501fb82fe5d38613115f97359293205204a25bf2c7d5468a70180&",
+        "descricao": "A Brasil Game Show (BGS) é o maior evento de jogos eletrônicos da América Latina, atraindo entusiastas, empresas e personalidades da indústria de games. Com duração de vários dias, a BGS oferece uma ampla gama de atrações, desde estandes de empresas de jogos até competições de e-sports, palestras e encontros com desenvolvedores.",
+        "data": "23/11/2023",
+        "horario": "15:00",
+        "tipo": "Tecnologia",
+        "valor": "R$ 299,00"
+      },
+      {
+        "id": 12,
+        "nome": "Encontro Dos Youtubers - Rezeendevil no PARAÍSO",
+        "local": "Belo Horizonte",
+        "banner": "https://cdn.discordapp.com/attachments/944149488640094228/1166586736487448636/agenda-rezende-em-paraiso-espetaculo-rezendeevil-youtuber-cidades-ingressos.png?ex=654b0790&is=65389290&hm=256df4475ce13201272f010fb2535acdda850cdbe985d2ce35859f97b4b46da2&",
+        "descricao": "Junte-se a nós no emocionante encontro com o famoso youtuber Rezendeevil! Este evento imperdível oferece a oportunidade de conhecer o Rezende pessoalmente, participar de sessões de perguntas e respostas, assistir a apresentações exclusivas, e desfrutar de momentos emocionantes ao lado de outros fãs. Prepare-se para uma experiência única e cheia de diversão com uma das maiores estrelas do YouTube no Brasil.",
+        "data": "15/12/2023",
+        "horario": "13:00",
+        "tipo": "Passeios e Tours",
+        "valor": "R$ 50,00"
+      },
+      {
+        "id": 13,
+        "nome": "Corinthians x Inter",
+        "local": "São Paulo",
+        "banner": "https://cdn.discordapp.com/attachments/944149488640094228/1166586977508925450/315586_e71cb5d0e0e0294.png?ex=654b07c9&is=653892c9&hm=bbf2fbd2c0a49c881354aa9726546af94703d778512fe155180bf1b1d895ff5d&",
+        "descricao": "🏆 Evento Imperdível: Internacional vs. Corinthians 🏆Prepare-se para o embate espetacular que vai agitar as estruturas do futebol! No palco, duas equipes lendárias - Internacional e Corinthians - se enfrentam em um confronto eletrizante que promete uma verdadeira chuva de gols e jogadas incríveis.⚽ O Jogo: ⚽Ambos os times estão prontos para dar o seu melhor, e o estádio será o cenário de uma batalha épica. Os craques em campo vão mostrar toda sua habilidade, paixão e determinação para conquistar a vitória.📅 Data e Hora: 📅Marca na tua agenda! Este evento imperdível acontecerá no dia [Inserir Data] às [Inserir Hora], e você não pode ficar de fora dessa experiência única.📣 Venha Fazer Parte Dessa Festa! 📣 Não perca a chance de vivenciar toda a emoção deste confronto imperdível. Venha torcer e vibrar com seu time do coração em um ambiente repleto de energia, rivalidade saudável e emoções à flor da pele.🎉 Prepare-se para uma experiência inesquecível! 🎉Adquira seus ingressos agora e garanta seu lugar nesse evento que vai entrar para a história. Seja parte da torcida apaixonada que irá empurrar seu time rumo à vitória.Junte-se a nós e viva a magia do futebol no seu auge. Este é o momento de demonstrar seu apoio e celebrar a paixão pelo esporte. Estamos ansiosos para vê-lo lá! ⚽🔥 #InterVsCorinthians #VaiCorinthians #VamoInter",
+        "data": "6/11/2023",
+        "horario": "16:00",
+        "tipo": "Esportes",
+        "valor": "R$ 60,00"
+      },
+      {
+        "id": 14,
+        "nome": "CENA 2K23",
+        "local": "São Paulo",
+        "banner": "https://cdn.discordapp.com/attachments/944149488640094228/1166587106446032926/CENA-2K23.png?ex=654b07e8&is=653892e8&hm=247095e58041debee2c18815470131f1aa81e79c7ce956f3ace7f9629dc62696&",
+        "descricao": "O Festival Cena 2023 é uma celebração multicultural imperdível, unindo música, teatro, dança e arte. Com a participação de talentos locais e renomados artistas internacionais, promete uma experiência rica em criatividade e diversidade cultural, realizada em São Paulo aa Neo Química Arena nos dias 09/12/2023 e 10/12/2023. Não perca essa explosão de arte e cultura. #FestivalCena2023",
+        "data": "09/12/2023 e 10/12/2023",
+        "horario": "10:00",
+        "tipo": "Festas e Shows",
+        "valor": "R$ 499,00 "
+      },
+      {
+        "id": 15,
+        "nome": "Fortaleza x Flamengo",
+        "local": "Rio de Janeiro",
+        "banner": "https://cdn.discordapp.com/attachments/944149488640094228/1166594488957943929/fortaleza-flamengo-confira-onde-assistir-e-provaveis-escalacoes_widelg.png?ex=654b0ec8&is=653899c8&hm=63eee49074598863ebf8ac071427831a8768a1773610da975c04a7c2c823997a&",
+        "descricao": "Testemunhe o duelo intenso entre Fortaleza e Flamengo. Garanta seus ingressos para esta experiência esportiva emocionante. Junte-se à torcida e seja parte desta jornada única!",
+        "data": "12/11/2023",
+        "horario": "20:00",
+        "tipo": "Esportes",
+        "valor": "R$ 60,00"
+      },
+      {
+        "id": 16,
+        "nome": "DESAFIO DOS INFLAVEIS",
+        "local": "São Paulo",
+        "banner": "https://cdn.discordapp.com/attachments/944149488640094228/1166595415731343490/image.png?ex=654b0fa5&is=65389aa5&hm=2c5a1fb55902260c04456fd6197d0e1b41f675a5ef48eb70590a8d1f7151a1b0&",
+        "descricao": "Venha participar do nosso evento de brinquedos infláveis para crianças! Garantimos um dia repleto de diversão, com brinquedos emocionantes, escorregadores, castelos e obstáculos. Há atividades para crianças de todas as idades, permitindo que a família inteira desfrute. Além dos infláveis, oferecemos opções gastronômicas deliciosas e entretenimento ao vivo. Uma oportunidade imperdível para criar memórias especiais em família.",
+        "data": "5/11/2023",
+        "horario": "10:00",
+        "tipo": "Infantil",
+        "valor": "R$ 80,00"
+      },
+      {
+        "id": 17,
+        "nome": "MUSEU DE CIÊNCIAS E TECNOLOGIA",
+        "local": "Rio de Janeiro",
+        "banner": "https://cdn.discordapp.com/attachments/944149488640094228/1166597345576755271/image.png?ex=654b1171&is=65389c71&hm=abc89d01780e8fb10ac44fd498121c960f75990c8ae92c8e2fc1c0952e78c2fd&",
+        "descricao": "Explore o fascinante mundo da ciência e da tecnologia no nosso museu. Com exposições interativas, experimentos emocionantes e descobertas surpreendentes, este é o lugar ideal para aprender de forma envolvente. Desde a história das inovações até as últimas fronteiras da pesquisa, mergulhe no conhecimento e divirta-se. Venha visitar-nos e embarque em uma jornada de descobertas científicas!",
+        "data": "25/10/2023",
+        "horario": "09:00",
+        "tipo": "Passeios e Tours",
+        "valor": "R$ 100,00"
+      },
+      {
+        "id": 18,
+        "nome": "Paredão na Selva | Funk 150, Proibidão e Batidão",
+        "local": "São Paulo",
+        "banner": "https://cdn.discordapp.com/attachments/944149488640094228/1166597938470985760/image.png?ex=654b11fe&is=65389cfe&hm=c7b5c9f49484c503c90909cbc3178b74c41ebd6fb83631e767711401e6c334f2&",
+        "descricao": "A festa mais quente do ano está chegando! Prepare-se para dançar até o amanhecer com os melhores ritmos do funk. Com os sons do Funk 150, Proibidão e Batidão, esta é uma noite que vai tremer a selva. DJs renomados e artistas incríveis vão agitar a pista. Não fique de fora, garanta seu lugar nesta festa inesquecível. Vamos rebolar! 🕺💃",
+        "data": "28/10/2023",
+        "horario": "22:00",
+        "tipo": "Pride",
+        "valor": "R$ 35,00"
+      },
+      {
+        "id": 19,
+        "nome": "Biergarten",
+        "local": "Salvador",
+        "banner": "https://cdn.discordapp.com/attachments/944149488640094228/1166598598746722334/image.png?ex=654b129c&is=65389d9c&hm=1b2223db956a40e3c8ccb948e608d87a9eba727e64b99c0a6d475846e5d87ec9&",
+        "descricao": "Um paraíso para os amantes da cerveja! O Biergarten é um oásis de boa comida, cerveja gelada e música ao vivo. Desfrute de uma atmosfera descontraída e delícias gastronômicas, perfeito para encontros com amigos. Venha relaxar, brindar e saborear em nosso Biergarten. A diversão e a boa companhia estão garantidas! 🍻🍔🎶",
+        "data": "25/10/2023",
+        "horario": "15:00",
+        "tipo": "Gastronomia",
+        "valor": "R$ 70,00"
+      },
+      {
+        "id": 20,
+        "nome": "Hamburgada do Bem",
+        "local": "São Paulo",
+        "banner": "https://cdn.discordapp.com/attachments/944149488640094228/1166599963673907220/image.png?ex=654b13e1&is=65389ee1&hm=67a8ec0b2a1d1009dbeeae57aa77f0104ea8d339068cd080fe23bb78cfbe0a54&",
+        "descricao": "Sabor que faz o bem! A Hamburgada do Bem é mais do que apenas hambúrgueres deliciosos; é uma iniciativa solidária. Cada mordida contribui para causas sociais. Desfrute de suculentos hambúrgueres e apoie projetos beneficentes. Junte-se a nós para uma refeição saborosa com um propósito maior. 🍔🤝😋",
+        "data": "12/11/2023",
+        "horario": "08:30",
+        "tipo": "Gastronomia",
+        "valor": "R$ 47,00"
+      }
+    ]
+  }
