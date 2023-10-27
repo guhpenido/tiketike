@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import carrinho from "./cart-shopping-solid.svg";
 import "../home/homecss.css";
 
@@ -12,16 +12,32 @@ function ProdutoDisplay({
   horario,
   tipo,
   valor,
+  adicionarAoCarrinho,
+  abrirDetalhe
 }) {
-    const divStyle = {
-        backgroundImage: `url(${banner})`,  
-      };
+  const divStyle = {
+    backgroundImage: `url(${banner})`,
+  };
+  const abrirDetalheProduto = () => {
+    // Chame a função para abrir o Detalhe e passe as informações do produto
+    abrirDetalhe({
+      id,
+      nome,
+      // ... outras informações do produto
+    });
+  };
+
   return (
     <>
-      <div className="card">
+      <div className="card" onClick={abrirDetalheProduto}>
         <div className="img" style={divStyle}>
           <div className="save">
-            <img className="carrinho" src={carrinho} alt="" />
+            <img
+              className="carrinho"
+              src={carrinho}
+              alt=""
+              onClick={adicionarAoCarrinho}
+            />
           </div>
         </div>
 

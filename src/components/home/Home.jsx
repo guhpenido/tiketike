@@ -1,34 +1,73 @@
-import React from "react";
+import React, { useState } from "react";
 import "./homecss.css";
 import carrinho from "./cart-shopping-solid.svg";
-import productsData from '../../assets/eventos.json';
+import productsData from "../../assets/eventos.json";
 import ProdutoDisplay from "../produto/Produto";
+import Header from "../header/Header";
+import Carrinho from "../carrinho/Carrinho";
+import Detalhe from "../detalhes/Detalhe";
 
 function Home() {
+  const [carrinhoItems, setCarrinhoItems] = useState([]);
+  const [detalheVisivel, setDetalheVisivel] = useState(false);
+  const [produtoSelecionado, setProdutoSelecionado] = useState(null);
+  const [categoriaSelecionada, setCategoriaSelecionada] = useState("Todas");
+  
+  const adicionarAoCarrinho = (produto) => {
+    setCarrinhoItems([...carrinhoItems, produto]);
+    alert("Produto adicionado com sucesso!");
+  };
+  const removerItemDoCarrinho = (index) => {
+    const novosItens = [...carrinhoItems];
+    novosItens.splice(index, 1); // Remove o item do array
+    setCarrinhoItems(novosItens); // Atualiza o estado do carrinho
+  };
+  const [carrinhoVisivel, setCarrinhoVisivel] = useState(false);
+  const toggleCarrinho = () => {
+    setCarrinhoVisivel(!carrinhoVisivel);
+  };
+  const abrirDetalhe = (produto) => {
+    setProdutoSelecionado(produto);
+    setDetalheVisivel(true);
+  };
+  const fecharDetalhe = () => {
+    setDetalheVisivel(false);
+  };
+  const atualizarCategoriaSelecionada = (event) => {
+    setCategoriaSelecionada(event.target.value);
+  };
+  const produtosFiltrados = productsData.eventos.filter((produto) => {
+    return (
+      categoriaSelecionada === "Todas" || produto.tipo === categoriaSelecionada
+    );
+  });
   return (
     <>
+      <div className="filtro">
+        <label htmlFor="categoriaSelect">Filtrar por Categoria:</label>
+        <select
+          id="categoriaSelect"
+          value={categoriaSelecionada}
+          onChange={atualizarCategoriaSelecionada}
+        >
+          <option value="Todas">Todas</option>
+          {getUniqueCategories(productsData.eventos).map((categoria) => (
+            <option key={categoria} value={categoria}>
+              {categoria}
+            </option>
+          ))}
+        </select>
+      </div>
       <div className="home-container">
-        <div className="header">
-          <div className="home-header">
-            <div className="home-header-links"></div>
-            <div className="home-header-logo">
-              <img
-                src="https://cdn.discordapp.com/attachments/944149488640094228/1166569113691361362/LOGO.png?ex=654af726&is=65388226&hm=9e515b70f3c1d9652b32fac00965a8ec08e3f2e41fada979a794b90ca8539344&"
-                alt=""
-              />
-            </div>
-            <div className="home-header-cart">
-              <img className="carrinho" src={carrinho} alt="" />
-            </div>
-          </div>
-        </div>
+        <Header toggleCarrinho={toggleCarrinho} />
         <div className="home-main">
           <div className="home-main-filtro"></div>
           <div className="filtro"></div>
           <div className="main">
             <div className="home-main-produtos">
-              {productsData.eventos.map((product) => (
+            {produtosFiltrados.map((product) => (
                 <ProdutoDisplay
+                  key={product.id} // Adicione uma chave única usando o ID do produto
                   id={product.id}
                   nome={product.nome}
                   local={product.local}
@@ -39,6 +78,8 @@ function Home() {
                   horario={product.horario}
                   tipo={product.tipo}
                   valor={product.valor}
+                  adicionarAoCarrinho={() => adicionarAoCarrinho(product)}
+                  abrirDetalhe={() => abrirDetalhe(product)}
                 />
               ))}
             </div>
@@ -50,8 +91,24 @@ function Home() {
           </div>
         </div>
       </div>
+      {carrinhoVisivel && (
+        <Carrinho
+          carrinhoItems={carrinhoItems}
+          removerItemDoCarrinho={removerItemDoCarrinho}
+        />
+      )}
+      {detalheVisivel && (
+        <Detalhe produto={produtoSelecionado} fecharDetalhe={fecharDetalhe} />
+      )}
     </>
   );
+}
+function getUniqueCategories(products) {
+  const uniqueCategories = new Set();
+  products.forEach((produto) => {
+    uniqueCategories.add(produto.tipo);
+  });
+  return ["Todas", ...uniqueCategories];
 }
 
 export default Home;
